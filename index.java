@@ -124,7 +124,7 @@ public class productos {
 
             while (line != null) {
                 if (line.startsWith("code: " + code)) {
-                    for (int i = 0; i &lt; 4; i++) {
+                    for (int i = 0; i < 4; i++) {
                         line = line.substring(line.indexOf(" ") + 1);
                         text = text + line + "\n";
                         line = br.readLine();
@@ -156,7 +156,7 @@ public class formulario extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // &lt;editor-fold defaultstate="collapsed" desc="Generated Code"&gt;//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
 
     private void initComponents() {
 
@@ -311,7 +311,7 @@ public class formulario extends javax.swing.JFrame {
         );
 
         pack();
-    }// &lt;/editor-fold&gt;//GEN-END:initComponents
+    }// </editor-fold>//GEN-END:initComponents
 
     private void txtcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcodeActionPerformed
 
